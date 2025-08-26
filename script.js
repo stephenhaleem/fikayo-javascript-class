@@ -63,3 +63,17 @@ console.log(2 === "2");
 /*
 so you can see changes from me by PULL and then when youre done with coding you can PUSH
 */
+/*
+let length = prompt("enter length");
+let width = prompt("enter width");
+let area = length * width;
+
+alert("area is " + area);
+*/
+
+let Principal = prompt("enter principal");
+let Rate = prompt("enter rate");
+let Time = prompt("enter time");
+let simpleInterest = (Principal * Rate * Time) / 100;
+
+alert("simple Interest is " + simpleInterest);
