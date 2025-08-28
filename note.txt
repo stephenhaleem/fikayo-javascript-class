@@ -1,0 +1,62 @@
+javascript makes our website functional and interactive 
+the users cant see javascript codes , its only for communication between the computer and the developer and or server
+so we can typically see javascript codes in the console of ANY browser
+
+to write our js codes we can do it in 3 ways 
+we have inline javascript - <button onclick="fikayo()">click me </button> 
+ we hve internal javascript - <script > 
+ </script>
+
+ we have external javascript - we llink a javascript file to our html at the bottom of the html file 
+
+ to view our javascript code or to run our javascript code we use - console.log()
+ 
+ in js we can do calculations from simple ones to complex calculations and to do that we make use of operators
+
+ so we can do additions, subtractions, multiplications, divisions in js 
+ + - / *
+
+data types in javascript 
+we have several types
+we have STRINGS - we write texts in javascript in strings 
+we have NUMBERS - 10 20 ( we dont put numbes in strings)
+we have BOOLEANS - true and false 
+we have arrays
+we have dictionary 
+we have undefined 
+we have null - 0
+
+NAMING VARIABLES 
+we have 3 ways of naming VARIABLES - let , var , const 
+
+let - the variable we are naming can be changed 
+var - the variable we are naming can be changed
+const - the variable cant be changed - constant 
+
+we use camelcase to write variable names
+
+
+example on calculations
+
+we go to a mallam shop to buy things and we bought 5 milo, 8 sardine, 9 eggs and 1 kopiko, we initially took 20000 to buy everything, calculate total price and show the change
+1 milo - 2000
+1 sardine - 200
+1 egg - 300
+1 kopiko - 20
+
+so we can make alerts and give prompts using javascript
+to make an alert - alert("")
+to give a prompt - prompt("")
+
+we can now start using 
+< - less than
+> - greater than
+<= - less or equals
+>= - greater or equals to
+&& - and 
+|| - or 
+== - equals to ( check if value is the same)
+=== - equals to ( checks if value and data type are the same)
+
+IF statements
+IF else statements ( < , > , <= , >=, && , || )
