@@ -59,3 +59,7 @@ console.log(2 > 1);
 console.log(2 < 1);
 console.log(2 == "2");
 console.log(2 === "2");
+
+/*
+so you can see changes from me by PULL and then when youre done with coding you can PUSH
+*/
