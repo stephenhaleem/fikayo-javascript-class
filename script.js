@@ -29,7 +29,7 @@
 
     let name = prompt("whats your name ?");
     alert("welcome to my shop " + name);
-    let moneyInPocket = prompt("how much do you have ?");
+    let moneyInPocket = prompt("
 
     let miloTotal = milo * prompt("how many milo do you want to buy ?");
     console.log(miloTotal);
@@ -54,12 +54,12 @@
 
     alert("thanks for your patronage");
     */
-
+/*
 console.log(2 > 1);
 console.log(2 < 1);
 console.log(2 == "2");
 console.log(2 === "2");
-
+*/
 /*
 so you can see changes from me by PULL and then when youre done with coding you can PUSH
 */
@@ -70,7 +70,6 @@ let area = length * width;
 
 alert("area is " + area);
 
-
 let Principal = prompt("enter principal");
 let Rate = prompt("enter rate");
 let Time = prompt("enter time");
@@ -78,7 +77,6 @@ let simpleInterest = (Principal * Rate * Time) / 100;
 
 alert("simple Interest is " + simpleInterest);
 */
-
 /*
 let age = 17;
 if (age >= 18) {
@@ -87,7 +85,6 @@ if (age >= 18) {
   alert("you are underage");
 }
   */
-
 /*
 let score = prompt(" what did you score ?");
 
@@ -136,7 +133,7 @@ if (!hasTicket) {
   alert(" enter boss");
 }
 */
-
+/*
 let name = prompt(" enter your name ");
 
 if (!name) {
@@ -145,4 +142,32 @@ if (!name) {
 } else {
   alert(" hello " + name);
   console.log(" theres name");
+}
+*/
+let assignment = prompt(" have you submitted your assignment? ");
+let submitted = true;
+
+if (!submitted) {
+  alert(" go and kneel down outside ");
+} else {
+  alert(" welcome to class ");
+}
+
+let userPin = prompt(" Enter pin ");
+const correctPin = "1234";
+console.log(1234);
+
+if (!(userPin === correctPin)) {
+  alert(" access denied ");
+} else {
+  alert("access granted ");
+}
+
+let weather = prompt ("what is the temperature of the day? ");
+if (weather > 30 ) {
+  alert(" hotDay " );
+} else if (" weather <30 || weather =20  ") {
+  alert(" warmDay ");
+} else (" weather <20 ") {
+  alert(" coldDay");
 }
