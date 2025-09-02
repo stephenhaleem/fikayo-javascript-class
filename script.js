@@ -69,7 +69,7 @@ let width = prompt("enter width");
 let area = length * width;
 
 alert("area is " + area);
-*/
+
 
 let Principal = prompt("enter principal");
 let Rate = prompt("enter rate");
@@ -77,3 +77,72 @@ let Time = prompt("enter time");
 let simpleInterest = (Principal * Rate * Time) / 100;
 
 alert("simple Interest is " + simpleInterest);
+*/
+
+/*
+let age = 17;
+if (age >= 18) {
+  alert("you are an adult now");
+} else {
+  alert("you are underage");
+}
+  */
+
+/*
+let score = prompt(" what did you score ?");
+
+if (score >= 90) {
+  alert("GRADE A congratulations");
+} else if (score >= 80 && score <= 89) {
+  alert(" GRADE B VERY GOOD");
+} else if (score >= 50 && score <= 79) {
+  alert(" GRADE C GOOD");
+} else {
+  alert(" you failed nigga");
+}
+*/
+
+/*
+let username = prompt(" ENTER USERNAME");
+
+if (username === "admin") {
+  alert(" welcome admin");
+} else {
+  alert(" intruder alert");
+}
+
+let day = prompt("whats the day ?");
+if (day === "saturday" || day === "sunday") {
+  alert("weekend");
+} else {
+  alert(" not weekend");
+}
+*/
+
+/*
+isLoggedIn = false;
+
+if (!isLoggedIn) {
+  alert("please log in first");
+}
+*/
+
+/*
+let hasTicket = true; // true statement
+
+if (!hasTicket) {
+  alert(" you cant enter boss");
+} else {
+  alert(" enter boss");
+}
+*/
+
+let name = prompt(" enter your name ");
+
+if (!name) {
+  alert(" you didnt enter anything");
+  console.log(" no name");
+} else {
+  alert(" hello " + name);
+  console.log(" theres name");
+}

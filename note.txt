@@ -53,10 +53,34 @@ we can now start using
 > - greater than
 <= - less or equals
 >= - greater or equals to
-&& - and 
+&& - and
+! - NOT 
 || - or 
 == - equals to ( check if value is the same)
 === - equals to ( checks if value and data type are the same)
 
-IF statements
+IF statements - used to make decisions in our code 
+IF - check if a condition is true 
+ELSE - checks if a condition is false
+ELSE IF - checks for multiple conditions
+
 IF else statements ( < , > , <= , >=, && , || )
+
+
+Write a program that asks if a student has submitted their assignment ( true or false)
+if not submitted - go and kneel down outside
+if submitted - welcome to class
+
+ATM simulation
+ask users for pin (1234)
+if pin correct - access granted 
+if wrong - access denied
+
+ask users for the temperature of the day
+if above 30 - hot day
+if 20-30 - warm day
+if below 20 - cold day
+
+ask users for the year
+if divisible by 4 - leap year
+if not divisible - not a leap year
