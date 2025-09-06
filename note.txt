@@ -64,7 +64,7 @@ IF - check if a condition is true
 ELSE - checks if a condition is false
 ELSE IF - checks for multiple conditions
 
-IF else statements ( < , > , <= , >=, && , || )
+IF else statements ( < , > , <= , >=, && , || , !)
 
 
 Write a program that asks if a student has submitted their assignment ( true or false)
@@ -84,3 +84,12 @@ if below 20 - cold day
 ask users for the year
 if divisible by 4 - leap year
 if not divisible - not a leap year
+
+TEMPLATE LITERALS ` - backticks ( we use backticks when we want to create template literals)
+
+5 x 2 = 10 
+
+LOOPS - we use loops in javascript when we want to repeat a code without writing it many times
+we use loops to save time when coding and to avoid repeating codes and to handle situations
+
+first type of loop is FOR loop - we use a FOR loop when we know how many times we want to run a code
