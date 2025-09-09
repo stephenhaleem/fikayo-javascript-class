@@ -163,11 +163,12 @@ if (!(userPin === correctPin)) {
   alert("access granted ");
 }
 
-let weather = prompt ("what is the temperature of the day? ");
-if (weather > 30 ) {
-  alert(" hotDay " );
+let weather = prompt("what is the temperature of the day? ");
+if (weather > 30) {
+  alert(" hotDay ");
 } else if (" weather <30 || weather =20  ") {
   alert(" warmDay ");
-} else (" weather <20 ") {
+} else " weather <20 ";
+{
   alert(" coldDay");
 }
