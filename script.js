@@ -144,16 +144,43 @@ if (!name) {
   console.log(" theres name");
 }
 */
+/*
 let assignment = prompt(" have you submitted your assignment? ");
 let submitted = true;
 
-if (!submitted) {
+if (submitted) {
   alert(" go and kneel down outside ");
 } else {
   alert(" welcome to class ");
 }
+let assignment = prompt(" have you submitted ?");
 
-let userPin = prompt(" Enter pin ");
+assignment = assignment === "true"; // boolean conversion
+
+if (!assignment) {
+  alert(" go and kneel down outside");
+} else {
+  alert(" welcome to class");
+}
+let weather = prompt("what is the temperature of the day? ");
+if (weather > 30) {
+  alert(" hotDay ");
+} else if (" weather <30 || weather =20  ") {
+  alert(" warmDay ");
+} else if (" weather <20 ") {
+  alert(" coldDay");
+}
+*/
+
+/*
+let assignment = prompt(" have you submitted ?");
+
+if (assignment == "true") {
+  alert("welcome to class");
+} else {
+  alert(" go and kneel down outisde");
+}
+  let userPin = prompt(" Enter pin ");
 const correctPin = "1234";
 console.log(1234);
 
@@ -163,12 +190,11 @@ if (!(userPin === correctPin)) {
   alert("access granted ");
 }
 
-let weather = prompt("what is the temperature of the day? ");
-if (weather > 30) {
-  alert(" hotDay ");
+let weather = prompt ("what is the temperature of the day? ");
+if (weather > 30 ) {
+  alert(" hotDay " );
 } else if (" weather <30 || weather =20  ") {
   alert(" warmDay ");
-} else " weather <20 ";
-{
+} else (" weather <20 ") {
   alert(" coldDay");
 }
